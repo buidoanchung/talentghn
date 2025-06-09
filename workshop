@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="vi" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lộ Trình Phát Triển Năng Lực HR 2025</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Be Vietnam Pro', sans-serif;
+        }
+        .hero-bg {
+            background-color: #004AAD;
+            background-image: linear-gradient(135deg, #004AAD 0%, #007BFF 100%);
+        }
+        .nav-link {
+            transition: all 0.3s ease;
+            position: relative;
+        }
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -5px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #99C7FF;
+            transition: width 0.3s ease;
+        }
+        .nav-link:hover::after, .nav-link.active::after {
+            width: 100%;
+        }
+        .section-reveal {
+            visibility: hidden;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-700">
+
+    <header id="navbar" class="bg-white/80 backdrop-blur-lg fixed top-0 left-0 right-0 z-50 shadow-md">
+        <div class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <a href="#home" class="text-xl font-bold text-[#004AAD]">HR Development 2025</a>
+            <nav class="hidden md:flex space-x-8">
+                <a href="#overview" class="nav-link text-slate-600 hover:text-[#0062D8]">Tổng Quan</a>
+                <a href="#roadmap" class="nav-link text-slate-600 hover:text-[#0062D8]">Lộ Trình</a>
+                <a href="#impact" class="nav-link text-slate-600 hover:text-[#0062D8]">Kết Quả</a>
+                <a href="#register" class="nav-link text-slate-600 hover:text-[#0062D8]">Đăng Ký</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero-bg min-h-screen flex items-center justify-center text-white text-center pt-20">
+            <div class="container mx-auto px-6">
+                <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-4 animate-fade-in-down">NÂNG TẦM NĂNG LỰC</h1>
+                <p class="text-xl md:text-2xl font-light mb-8 animate-fade-in-up">Lộ trình phát triển toàn diện năm 2025 được thiết kế để đưa đội ngũ HR trở thành đối tác chiến lược không thể thiếu.</p>
+                <a href="#overview" class="bg-white text-[#0062D8] font-bold py-3 px-8 rounded-full text-lg hover:bg-slate-100 transition duration-300 transform hover:scale-105">Khám Phá Lộ Trình</a>
+            </div>
+        </section>
+
+        <section id="overview" class="py-16 md:py-24 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center max-w-3xl mx-auto mb-12 section-reveal">
+                    <h2 class="text-3xl md:text-4xl font-bold text-[#004AAD] mb-4">Tổng Quan Lộ Trình Phát Triển</h2>
+                    <p class="text-lg text-slate-600">Chương trình tập trung vào 7 năng lực cốt lõi, tạo nên một hành trình chuyển đổi mạnh mẽ từ kỹ năng cá nhân đến vai trò lãnh đạo chiến lược, đảm bảo sự phát triển bền vững cho đội ngũ.</p>
+                </div>
+                <div class="bg-slate-50 rounded-xl shadow-lg p-6 md:p-8 section-reveal">
+                     <div class="relative h-[400px] md:h-[500px] w-full max-w-2xl mx-auto">
+                        <canvas id="radarChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="roadmap" class="py-16 md:py-24">
+            <div class="container mx-auto px-6">
+                 <div class="text-center max-w-3xl mx-auto mb-16 section-reveal">
+                    <h2 class="text-3xl md:text-4xl font-bold text-[#004AAD] mb-4">Hành Trình Chuyển Đổi Chi Tiết</h2>
+                    <p class="text-lg text-slate-600">Mỗi tháng là một bước tiến mới trên con đường chinh phục các kỹ năng đỉnh cao, được thiết kế chuyên biệt để đáp ứng những thách thức thực tiễn của ngành Nhân sự hiện đại.</p>
+                </div>
+                <div class="space-y-16">
+                    
+                    <div class="grid md:grid-cols-2 gap-10 items-center section-reveal">
+                        <div class="text-6xl text-[#007BFF] text-center opacity-50">🧠</div>
+                        <div>
+                            <span class="font-semibold text-sm text-[#007BFF] tracking-wider">THÁNG 6</span>
+                            <h3 class="text-2xl font-bold text-[#004AAD] mt-1 mb-3">Thông Minh Cảm Xúc (EQ)</h3>
+                            <p class="mb-4">Xây dựng nền tảng về nhận thức và quản lý cảm xúc để nâng cao kỹ năng thấu cảm, xây dựng mối quan hệ và giải quyết xung đột hiệu quả.</p>
+                            <ul class="space-y-2">
+                                <li class="flex items-center"><span class="text-[#007BFF] mr-3">✅</span>Tự tin và chuyên nghiệp hơn trong các tình huống khó khăn.</li>
+                                <li class="flex items-center"><span class="text-[#007BFF] mr-3">✅</span>Cải thiện chất lượng tương tác, giảm thiểu xung đột nội bộ.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="grid md:grid-cols-2 gap-10 items-center section-reveal">
+                         <div class="order-last md:order-first">
+                            <span class="font-semibold text-sm text-[#007BFF] tracking-wider">THÁNG 7</span>
+                            <h3 class="text-2xl font-bold text-[#004AAD] mt-1 mb-3">Giải Quyết Vấn Đề & Ra Quyết Định</h3>
+                            <p class="mb-4">Trang bị tư duy hệ thống và các công cụ phân tích để đưa ra quyết định tối ưu, giảm thiểu rủi ro và tăng cường sự chủ động.</p>
+                             <ul class="space-y-2">
+                                <li class="flex items-center"><span class="text-[#007BFF] mr-3">✅</span>Xác định gốc rễ vấn đề nhanh chóng và chính xác.</li>
+                                <li class="flex items-center"><span class="text-[#007BFF] mr-3">✅</span>Quyết định được đưa ra có căn cứ vững chắc, tăng hiệu quả.</li>
+                            </ul>
+                        </div>
+                        <div class="text-6xl text-[#007BFF] text-center opacity-50 order-first md:order-last">⚙️</div>
+                    </div>
+
+                     <div class="grid md:grid-cols-2 gap-10 items-center section-reveal">
+                        <div class="text-6xl text-[#007BFF] text-center opacity-50">🤝</div>
+                        <div>
+                            <span class="font-semibold text-sm text-[#007BFF] tracking-wider">THÁNG 8</span>
+                            <h3 class="text-2xl font-bold text-[#004AAD] mt-1 mb-3">Stakeholders Management</h3>
+                            <p class="mb-4">Nắm vững các nguyên tắc thiết lập và quản trị mối quan hệ với các bên liên quan, xây dựng giải pháp thực tế và thúc đẩy văn hóa học hỏi liên tục.</p>
+                             <ul class="space-y-2">
+                                <li class="flex items-center"><span class="text-[#007BFF] mr-3">✅</span>Quy trình HR trở nên linh hoạt, thích ứng cao.</li>
+                                <li class="flex items-center"><span class="text-[#007BFF] mr-3">✅</span>Tăng cường hợp tác liên phòng ban và sự hài lòng của nhân viên.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="grid md:grid-cols-2 gap-10 items-center section-reveal">
+                        <div class="order-last md:order-first">
+                            <span class="font-semibold text-sm text-[#007BFF] tracking-wider">THÁNG 9</span>
+                            <h3 class="text-2xl font-bold text-[#004AAD] mt-1 mb-3">Xây Dựng & Huấn Luyện Đội Ngũ</h3>
+                            <p class="mb-4">Phát triển kỹ năng xây dựng đội nhóm gắn kết và nâng cao năng lực huấn luyện (coaching) để phát huy tối đa tiềm năng của mỗi cá nhân.</p>
+                            <ul class="space-y-2">
+                                <li class="flex items-center"><span class="text-[#007BFF] mr-3">✅</span>Đội nhóm hoạt động gắn kết, tự giải quyết vấn đề hiệu quả.</li>
+                                <li class="flex items-center"><span class="text-[#007BFF] mr-3">✅</span>Tăng khả năng truyền cảm hứng và phát triển nhân viên.</li>
+                            </ul>
+                        </div>
+                        <div class="text-6xl text-[#007BFF] text-center opacity-50 order-first md:order-last">🧑‍🤝‍🧑</div>
+                    </div>
+
+                    <div class="grid md:grid-cols-2 gap-10 items-center section-reveal">
+                        <div class="text-6xl text-[#007BFF] text-center opacity-50">📊</div>
+                        <div>
+                            <span class="font-semibold text-sm text-[#007BFF] tracking-wider">THÁNG 10</span>
+                            <h3 class="text-2xl font-bold text-[#004AAD] mt-1 mb-3">Quản Trị Hiệu Suất Toàn Diện</h3>
+                            <p class="mb-4">Thiết lập hệ thống quản lý hiệu suất công bằng, minh bạch, liên kết chặt chẽ với chiến lược kinh doanh và phát triển nhân tài.</p>
+                             <ul class="space-y-2">
+                                <li class="flex items-center"><span class="text-[#007BFF] mr-3">✅</span>Hệ thống hiệu suất được chuẩn hóa, thúc đẩy sự công bằng.</li>
+                                <li class="flex items-center"><span class="text-[#007BFF] mr-3">✅</span>Hiệu suất tổng thể được nâng cao, đóng góp vào kết quả kinh doanh.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="grid md:grid-cols-2 gap-10 items-center section-reveal">
+                         <div class="order-last md:order-first">
+                            <span class="font-semibold text-sm text-[#007BFF] tracking-wider">THÁNG 11</span>
+                            <h3 class="text-2xl font-bold text-[#004AAD] mt-1 mb-3">People Analytics</h3>
+                            <p class="mb-4">Trang bị kỹ năng phân tích dữ liệu để biến HR thành đối tác chiến lược, đưa ra các quyết định nhân sự dựa trên dữ kiện và số liệu chính xác.</p>
+                             <ul class="space-y-2">
+                                <li class="flex items-center"><span class="text-[#007BFF] mr-3">✅</span>Quyết định nhân sự có cơ sở dữ liệu vững chắc.</li>
+                                <li class="flex items-center"><span class="text-[#007BFF] mr-3">✅</span>Nâng cao vai trò chiến lược của bộ phận Nhân sự trong tổ chức.</li>
+                            </ul>
+                        </div>
+                        <div class="text-6xl text-[#007BFF] text-center opacity-50 order-first md:order-last">📈</div>
+                    </div>
+
+                    <div class="grid md:grid-cols-2 gap-10 items-center section-reveal">
+                        <div class="text-6xl text-[#007BFF] text-center opacity-50">👑</div>
+                        <div>
+                            <span class="font-semibold text-sm text-[#007BFF] tracking-wider">THÁNG 12</span>
+                            <h3 class="text-2xl font-bold text-[#004AAD] mt-1 mb-3">Năng Lực Lãnh Đạo cho HR Leader</h3>
+                            <p class="mb-4">Hoàn thiện lộ trình bằng việc phát triển tư duy lãnh đạo chiến lược, giúp HR Leader dẫn dắt sự thay đổi và trở thành đối tác kinh doanh không thể thiếu.</p>
+                             <ul class="space-y-2">
+                                <li class="flex items-center"><span class="text-[#007BFF] mr-3">✅</span>Định hình và dẫn dắt các sáng kiến HR mang tính chiến lược.</li>
+                                <li class="flex items-center"><span class="text-[#007BFF] mr-3">✅</span>Nâng cao vị thế của HR, trở thành đối tác kinh doanh tin cậy.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="impact" class="py-16 md:py-24 bg-white">
+            <div class="container mx-auto px-6 section-reveal">
+                <div class="text-center max-w-3xl mx-auto mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-[#004AAD] mb-4">Giá Trị Cốt Lõi & Tác Động Toàn Diện</h2>
+                    <p class="text-lg text-slate-600">Chương trình không chỉ phát triển kỹ năng cá nhân mà còn tạo ra tác động lan tỏa đến hiệu suất đội ngũ và đóng góp trực tiếp vào chiến lược chung của tổ chức.</p>
+                </div>
+                <div class="w-full max-w-xl mx-auto flex flex-col items-center space-y-1">
+                    <div class="w-full h-24 p-4 text-white flex items-center justify-center text-center transition duration-300 hover:scale-105" style="background-color: #004AAD; clip-path: polygon(10% 0, 90% 0, 100% 100%, 0% 100%);">
+                        <div>
+                           <h4 class="font-bold text-lg">ĐÓNG GÓP CHIẾN LƯỢC</h4>
+                           <p class="text-sm font-light">HR trở thành đối tác kinh doanh tin cậy</p>
+                        </div>
+                    </div>
+                     <div class="w-[85%] h-24 p-4 text-white flex items-center justify-center text-center transition duration-300 hover:scale-105" style="background-color: #0062D8; clip-path: polygon(10% 0, 90% 0, 100% 100%, 0% 100%);">
+                         <div>
+                           <h4 class="font-semibold text-lg">TỐI ƯU ĐỘI NGŨ</h4>
+                           <p class="text-sm font-light">Xây dựng đội nhóm gắn kết, hiệu suất cao</p>
+                        </div>
+                    </div>
+                    <div class="w-[70%] h-24 p-4 text-white flex items-center justify-center text-center transition duration-300 hover:scale-105" style="background-color: #007BFF; clip-path: polygon(10% 0, 90% 0, 100% 100%, 0% 100%);">
+                         <div>
+                           <h4 class="font-medium text-lg">CẢI THIỆN CÁ NHÂN</h4>
+                           <p class="text-sm font-light">Thành thạo các năng lực nhân sự cốt lõi</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="register" class="py-16 md:py-24 hero-bg text-white">
+            <div class="container mx-auto px-6 text-center section-reveal">
+                 <h2 class="text-3xl md:text-4xl font-bold mb-4">Sẵn Sàng Cho Sự Chuyển Đổi?</h2>
+                 <p class="text-lg font-light max-w-2xl mx-auto mb-8">Hãy đăng ký ngay hôm nay để giữ chỗ trong hành trình phát triển năng lực toàn diện và đưa sự nghiệp của bạn lên một tầm cao mới.</p>
+                 <a href="#" class="bg-white text-[#0062D8] font-bold py-3 px-8 rounded-full text-lg hover:bg-slate-100 transition duration-300 transform hover:scale-105">Đăng Ký Ngay</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-slate-800 text-slate-300 py-8">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2025 | Chương Trình Phát Triển Năng Lực Nhân Sự Chuyên Sâu.</p>
+            <p class="text-sm text-slate-400 mt-2">Một sáng kiến vì sự phát triển bền vững của nguồn nhân lực.</p>
+        </div>
+    </footer>
+
+    <script>
+        // --- ScrollReveal Animation ---
+        ScrollReveal().reveal('.section-reveal', {
+            delay: 200,
+            distance: '50px',
+            origin: 'bottom',
+            duration: 800,
+            easing: 'ease-in-out',
+            reset: false
+        });
+
+        // --- Active Nav Link on Scroll ---
+        const sections = document.querySelectorAll('section[id]');
+        const navLinks = document.querySelectorAll('nav a');
+        
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                if (pageYOffset >= sectionTop - 60) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href').includes(current)) {
+                    link.classList.add('active');
+                }
+            });
+        });
+
+        // --- Chart.js Radar Chart ---
+        const radarCtx = document.getElementById('radarChart')?.getContext('2d');
+        if (radarCtx) {
+            const wrapLabel = (label) => {
+                const maxLength = 16;
+                if (typeof label !== 'string' || label.length <= maxLength) return label;
+                const words = label.split(' ');
+                const lines = [];
+                let currentLine = '';
+                words.forEach(word => {
+                    if ((currentLine + ' ' + word).length > maxLength && currentLine.length > 0) {
+                        lines.push(currentLine);
+                        currentLine = word;
+                    } else {
+                        currentLine = currentLine ? currentLine + ' ' + word : word;
+                    }
+                });
+                lines.push(currentLine);
+                return lines;
+            }
+
+            const radarLabels = [
+                'Thông Minh Cảm Xúc', 'Giải Quyết Vấn Đề', 'Stakeholders Management',
+                'Xây Dựng Đội Ngũ', 'Quản Trị Hiệu Suất', 'People Analytics', 'Năng Lực Lãnh Đạo'
+            ].map(wrapLabel);
+
+            new Chart(radarCtx, {
+                type: 'radar',
+                data: {
+                    labels: radarLabels,
+                    datasets: [{
+                        label: 'Năng lực Hiện tại',
+                        data: [40, 50, 30, 45, 55, 25, 35],
+                        fill: true,
+                        backgroundColor: 'rgba(153, 199, 255, 0.2)',
+                        borderColor: '#99C7FF',
+                        pointBackgroundColor: '#99C7FF',
+                        pointBorderColor: '#fff'
+                    }, {
+                        label: 'Năng lực Mục tiêu',
+                        data: [85, 90, 80, 90, 95, 85, 95],
+                        fill: true,
+                        backgroundColor: 'rgba(0, 123, 255, 0.3)',
+                        borderColor: '#007BFF',
+                        pointBackgroundColor: '#007BFF',
+                        pointBorderColor: '#fff'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            position: 'bottom',
+                            labels: {
+                                color: '#334155',
+                                font: { size: 14, family: "'Be Vietnam Pro', sans-serif" }
+                            }
+                        },
+                        tooltip: {
+                             callbacks: {
+                                title: function(tooltipItems) {
+                                    const item = tooltipItems[0];
+                                    let label = item.chart.data.labels[item.dataIndex];
+                                    return Array.isArray(label) ? label.join(' ') : label;
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        r: {
+                            angleLines: { color: '#cbd5e1' },
+                            grid: { color: '#e2e8f0' },
+                            pointLabels: {
+                                font: { size: 12, family: "'Be Vietnam Pro', sans-serif" },
+                                color: '#475569'
+                            },
+                            ticks: {
+                                backdropColor: 'transparent',
+                                color: '#64748b'
+                            }
+                        }
+                    }
+                }
+            });
+        }
+    </script>
+
+</body>
+</html>

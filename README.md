@@ -189,8 +189,7 @@ GIAO HÀNG NHANH - KHỐI THỊ TRƯỜNG
                 <div class="mx-auto max-w-2xl lg:text-center">
                     <p class="section-title">Khung Năng Lực Toàn Diện</p>
                     <p class="mt-6 section-subtitle">
-                        Chúng tôi đánh giá ứng viên dựa trên 3 nhóm tiêu chí cốt lõi, đảm bảo góc nhìn toàn diện về một nhà lãnh đạo tương lai.
-                    </p>
+                        Chúng tôi đánh giá ứng viên dựa trên 3 nhóm tiêu chí cốt lõi, đảm bảo góc nhìn toàn diện về một nhà lãnh đạo tương lai của GHN.
                 </div>
                 <div class="mt-12 max-w-4xl mx-auto" x-data="{ open: 'prof' }">
                     <div class="space-y-4">
@@ -201,7 +200,6 @@ GIAO HÀNG NHANH - KHỐI THỊ TRƯỜNG
                                     <li>Kinh nghiệm quản lý đội ngũ quy mô lớn và xử lý tình huống phức tạp.</li>
                                     <li>Thành tích công việc vượt trội, liên tục đạt và vượt các chỉ số KPI.</li>
                                     <li>Có đóng góp vào các dự án, sáng kiến mang lại giá trị cho công ty.</li>
-                                </ul>
                             </div>
                         </div>
                         <!-- Accordion Item 2 -->
@@ -211,10 +209,8 @@ GIAO HÀNG NHANH - KHỐI THỊ TRƯỜNG
                                     <li>Kỹ năng ra quyết định dứt khoát, hiệu quả dưới áp lực cao.</li>
                                     <li>Năng lực xây dựng, phát triển, tạo động lực và giữ chân đội ngũ.</li>
                                     <li>Khả năng giao tiếp, đàm phán thuyết phục và thích ứng với thay đổi.</li>
-                                </ul>
                             </div>
                         </div>
-
                         <!-- Accordion Item 3 -->
                          <div class="glass-card rounded-lg">
                                 <span class="text-lg font-semibold text-white">Phẩm chất & Tiềm năng Cá nhân</span>
@@ -222,14 +218,12 @@ GIAO HÀNG NHANH - KHỐI THỊ TRƯỜNG
                                     <li>Khát khao học hỏi, chủ động phát triển bản thân và có tham vọng thăng tiến.</li>
                                     <li>Khả năng chịu được áp lực cao và duy trì hiệu suất làm việc.</li>
                                     <li>Tinh thần hợp tác, hỗ trợ đồng đội vì mục tiêu chung của tổ chức.</li>
-                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        
         <!-- CTA Section -->
         <section class="hero-bg">
             <div class="container mx-auto px-6 py-20 text-center lg:px-8">
@@ -244,7 +238,6 @@ GIAO HÀNG NHANH - KHỐI THỊ TRƯỜNG
             </div>
         </section>
     </main>
-
     <!-- Footer -->
     <footer class="bg-gray-900">
         <div class="container mx-auto px-6 py-12 lg:px-8">
@@ -259,7 +252,6 @@ GIAO HÀNG NHANH - KHỐI THỊ TRƯỜNG
             </div>
         </div>
     </footer>
-
     <!-- AlpineJS for accordion interactivity -->
     <script src="//unpkg.com/alpinejs" defer></script>
     <script>

@@ -1,4 +1,4 @@
-<GIAO HÀNG NHANH - KHỐI THỊ TRƯỜNG>
+GIAO HÀNG NHANH - KHỐI THỊ TRƯỜNG
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
@@ -204,10 +204,7 @@
                         <div class="glass-card rounded-lg">
                             <button @click="open = open === 'prof' ? '' : 'prof'" class="w-full flex justify-between items-center text-left p-6">
                                 <span class="text-lg font-semibold text-white">Năng lực Chuyên môn & Kinh nghiệm</span>
-                                <svg :class="{'rotate-180': open === 'prof'}" class="w-6 h-6 text-amber-400 transform transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
                             </button>
-                            <div x-show="open === 'prof'" x-collapse class="px-6 pb-6">
-                                <ul class="list-disc list-inside text-gray-300 space-y-2">
                                     <li>Hiểu biết sâu rộng về ngành, thị trường và đối thủ cạnh tranh.</li>
                                     <li>Kinh nghiệm quản lý đội ngũ quy mô lớn và xử lý tình huống phức tạp.</li>
                                     <li>Thành tích công việc vượt trội, liên tục đạt và vượt các chỉ số KPI.</li>
@@ -220,10 +217,7 @@
                         <div class="glass-card rounded-lg">
                              <button @click="open = open === 'leader' ? '' : 'leader'" class="w-full flex justify-between items-center text-left p-6">
                                 <span class="text-lg font-semibold text-white">Kỹ năng Lãnh đạo & Quản lý</span>
-                                <svg :class="{'rotate-180': open === 'leader'}" class="w-6 h-6 text-amber-400 transform transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
                             </button>
-                            <div x-show="open === 'leader'" x-collapse class="px-6 pb-6">
-                                <ul class="list-disc list-inside text-gray-300 space-y-2">
                                     <li>Tầm nhìn chiến lược, khả năng dự báo và xây dựng kế hoạch dài hạn.</li>
                                     <li>Kỹ năng ra quyết định dứt khoát, hiệu quả dưới áp lực cao.</li>
                                     <li>Năng lực xây dựng, phát triển, tạo động lực và giữ chân đội ngũ.</li>
@@ -236,10 +230,7 @@
                          <div class="glass-card rounded-lg">
                             <button @click="open = open === 'personal' ? '' : 'personal'" class="w-full flex justify-between items-center text-left p-6">
                                 <span class="text-lg font-semibold text-white">Phẩm chất & Tiềm năng Cá nhân</span>
-                                <svg :class="{'rotate-180': open === 'personal'}" class="w-6 h-6 text-amber-400 transform transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
                             </button>
-                            <div x-show="open === 'personal'" x-collapse class="px-6 pb-6">
-                               <ul class="list-disc list-inside text-gray-300 space-y-2">
                                     <li>Tính cam kết, trách nhiệm cao và tinh thần chính trực trong công việc.</li>
                                     <li>Khát khao học hỏi, chủ động phát triển bản thân và có tham vọng thăng tiến.</li>
                                     <li>Khả năng chịu được áp lực cao và duy trì hiệu suất làm việc.</li>

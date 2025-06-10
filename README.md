@@ -92,7 +92,7 @@ GIAO HÀNG NHANH - KHỐI THỊ TRƯỜNG
                     <h2 class="text-base font-semibold leading-7 text-amber-400">Mục tiêu cốt lõi</h2>
                     <p class="mt-2 section-title">Kiến Tạo Đội Ngũ Kế Cận Vững Mạnh</p>
                     <p class="mt-6 section-subtitle">
-                        Chúng tôi tìm kiếm những nhà lãnh đạo tương lai có đủ thực lực và tiềm năng để dẫn dắt đội ngũ, đối mặt thách thức và nắm bắt cơ hội trong ngành vận chuyển giao nhận.
+                        Chúng tôi tìm kiếm những nhà lãnh đạo tương lai có đủ thực lực và tiềm năng để dẫn dắt đội ngũ, đối mặt thách thức và nắm bắt cơ hội trong ngành.
                     </p>
                 </div>
                 <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
@@ -144,7 +144,6 @@ GIAO HÀNG NHANH - KHỐI THỊ TRƯỜNG
                         Một hành trình đánh giá toàn diện qua 3 vòng thử thách, được thiết kế để khai phá và đo lường tiềm năng lãnh đạo của bạn một cách sâu sắc nhất.
                     </p>
                 </div>
-
                 <div class="mt-16 sm:mt-20 lg:mt-24 space-y-12">
                     <!-- Step 1 -->
                     <div class="relative flex flex-col md:flex-row items-center">
@@ -159,7 +158,6 @@ GIAO HÀNG NHANH - KHỐI THỊ TRƯỜNG
                     </div>
                      <!-- Connecting line -->
                     <div class="h-12 w-px bg-gray-600 mx-auto md:ml-[24px]"></div>
-
                     <!-- Step 2 -->
                     <div class="relative flex flex-col md:flex-row items-center">
                         <div class="flex items-center justify-center step-number rounded-full flex-shrink-0 z-10 bg-gray-800">2</div>
@@ -169,11 +167,8 @@ GIAO HÀNG NHANH - KHỐI THỊ TRƯỜNG
                             <p class="mt-3 text-gray-300">
                                 Thể hiện khả năng dẫn dắt, phối hợp, giải quyết xung đột và thúc đẩy sự đổi mới khi cùng đồng đội giải quyết các bài toán kinh doanh phức tạp.
                             </p>
-                        </div>
-                    </div>
                      <!-- Connecting line -->
                     <div class="h-12 w-px bg-gray-600 mx-auto md:ml-[24px]"></div>
-
                     <!-- Step 3 -->
                     <div class="relative flex flex-col md:flex-row items-center">
                         <div class="flex items-center justify-center step-number rounded-full flex-shrink-0 z-10 bg-gray-800">3</div>
@@ -188,7 +183,6 @@ GIAO HÀNG NHANH - KHỐI THỊ TRƯỜNG
                 </div>
             </div>
         </section>
-
         <!-- Section: Evaluation Criteria -->
         <section id="criteria" class="py-20 sm:py-24">
             <div class="container mx-auto px-6 lg:px-8">
@@ -202,9 +196,7 @@ GIAO HÀNG NHANH - KHỐI THỊ TRƯỜNG
                     <div class="space-y-4">
                         <!-- Accordion Item 1 -->
                         <div class="glass-card rounded-lg">
-                            <button @click="open = open === 'prof' ? '' : 'prof'" class="w-full flex justify-between items-center text-left p-6">
                                 <span class="text-lg font-semibold text-white">Năng lực Chuyên môn & Kinh nghiệm</span>
-                            </button>
                                     <li>Hiểu biết sâu rộng về ngành, thị trường và đối thủ cạnh tranh.</li>
                                     <li>Kinh nghiệm quản lý đội ngũ quy mô lớn và xử lý tình huống phức tạp.</li>
                                     <li>Thành tích công việc vượt trội, liên tục đạt và vượt các chỉ số KPI.</li>
@@ -212,12 +204,9 @@ GIAO HÀNG NHANH - KHỐI THỊ TRƯỜNG
                                 </ul>
                             </div>
                         </div>
-
                         <!-- Accordion Item 2 -->
                         <div class="glass-card rounded-lg">
-                             <button @click="open = open === 'leader' ? '' : 'leader'" class="w-full flex justify-between items-center text-left p-6">
                                 <span class="text-lg font-semibold text-white">Kỹ năng Lãnh đạo & Quản lý</span>
-                            </button>
                                     <li>Tầm nhìn chiến lược, khả năng dự báo và xây dựng kế hoạch dài hạn.</li>
                                     <li>Kỹ năng ra quyết định dứt khoát, hiệu quả dưới áp lực cao.</li>
                                     <li>Năng lực xây dựng, phát triển, tạo động lực và giữ chân đội ngũ.</li>
@@ -228,9 +217,7 @@ GIAO HÀNG NHANH - KHỐI THỊ TRƯỜNG
 
                         <!-- Accordion Item 3 -->
                          <div class="glass-card rounded-lg">
-                            <button @click="open = open === 'personal' ? '' : 'personal'" class="w-full flex justify-between items-center text-left p-6">
                                 <span class="text-lg font-semibold text-white">Phẩm chất & Tiềm năng Cá nhân</span>
-                            </button>
                                     <li>Tính cam kết, trách nhiệm cao và tinh thần chính trực trong công việc.</li>
                                     <li>Khát khao học hỏi, chủ động phát triển bản thân và có tham vọng thăng tiến.</li>
                                     <li>Khả năng chịu được áp lực cao và duy trì hiệu suất làm việc.</li>

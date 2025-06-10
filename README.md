@@ -218,11 +218,6 @@ GIAO HÀNG NHANH - KHỐI THỊ TRƯỜNG
                                     <li>Khát khao học hỏi, chủ động phát triển bản thân và có tham vọng thăng tiến.</li>
                                     <li>Khả năng chịu được áp lực cao và duy trì hiệu suất làm việc.</li>
                                     <li>Tinh thần hợp tác, hỗ trợ đồng đội vì mục tiêu chung của tổ chức.</li>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </section>
         <!-- CTA Section -->
         <section class="hero-bg">

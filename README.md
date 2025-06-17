@@ -45,7 +45,6 @@
     <!-- Header & Hero Section -->
     <header class="hero-bg">
         <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
-             <img src="https://assets.ghn.vn/img/logo-ghn-orange.png" alt="Logo Giao Hàng Nhanh" class="h-10">
              <a href="#register" class="ghn-orange-bg text-white font-semibold py-2 px-6 rounded-full hover:bg-opacity-90 transition-all hidden sm:inline-block">
                 Đăng Ký
             </a>

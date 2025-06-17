@@ -101,9 +101,9 @@
                     <h3 class="text-2xl font-bold text-slate-800 mb-4">Tại sao không thể bỏ lỡ?</h3>
                     <p class="text-slate-700 mb-6">Đây là buổi học nền tảng, cung cấp "bức tranh toàn cảnh" và tư duy cốt lõi cho toàn bộ chuỗi workshop. Tham gia buổi này giúp bạn:</p>
                     <ul class="space-y-3">
-                        <li class="flex items-center gap-3"><i class="fa-solid fa-check-circle text-green-500"></i>Đặt nền móng cho 5 buổi tiếp theo.</li>
-                        <li class="flex items-center gap-3"><i class="fa-solid fa-check-circle text-green-500"></i>"Nói cùng một ngôn ngữ" về AI.</li>
-                        <li class="flex items-center gap-3"><i class="fa-solid fa-check-circle text-green-500"></i>Định hình lại tư duy chiến lược về HR.</li>
+                        <li class="flex items-center gap-3"><i class="fa-solid fa-check-circle text-green-500"></i>Nền móng cho 5 buổi tiếp theo.</li>
+                        <li class="flex items-center gap-3"><i class="fa-solid fa-check-circle text-green-500"></i>"Nói cùng 1 ngôn ngữ" về AI.</li>
+                        <li class="flex items-center gap-3"><i class="fa-solid fa-check-circle text-green-500"></i>Định hình tư duy chiến lược về HR.</li>
                     </ul>
                     <a href="#register" class="mt-8 block w-full text-center ghn-orange-bg text-white font-bold py-3 rounded-lg text-lg hover:bg-opacity-90 transition shadow-lg hover:shadow-orange-400/50">
                         Đừng bỏ lỡ cơ hội có 1-2 này

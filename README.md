@@ -106,7 +106,7 @@
                         <li class="flex items-center gap-3"><i class="fa-solid fa-check-circle text-green-500"></i>Định hình lại tư duy chiến lược về HR.</li>
                     </ul>
                     <a href="#register" class="mt-8 block w-full text-center ghn-orange-bg text-white font-bold py-3 rounded-lg text-lg hover:bg-opacity-90 transition shadow-lg hover:shadow-orange-400/50">
-                        Giữ chỗ miễn phí
+                        Đừng bỏ lỡ cơ hội có 1-2 này
                     </a>
                 </div>
             </div>
@@ -150,7 +150,7 @@
              <div class="grid md:grid-cols-2 gap-10 items-center">
                 <div class="text-center md:text-left">
                     <h2 class="text-3xl font-bold text-slate-900 mb-3">Đăng ký để không bỏ lỡ!</h2>
-                    <p class="text-slate-700 mb-6">Điền thông tin để nhận thông báo và link tham gia cho toàn bộ chuỗi workshop. Hoàn toàn miễn phí!</p>
+                    <p class="text-slate-700 mb-6">Theo dõi trang này để nhận thông báo và link tham gia cho toàn bộ chuỗi workshop. Hoàn toàn miễn phí!</p>
                     <img src="https://placehold.co/500x350/ffffff/E53935?text=Future+of+HR" alt="Đăng ký workshop" class="rounded-2xl hidden md:block">
                 </div>
                 <div class="bg-white p-8 rounded-xl shadow-lg">
@@ -179,7 +179,7 @@
     <footer class="bg-slate-900 text-slate-400 py-12 mt-16">
         <div class="container mx-auto px-6 text-center">
             <p class="font-bold text-lg text-white mb-2">Một chương trình từ HR Leader - Giao Hàng Nhanh</p>
-            <p>&copy; 2025. Mọi quyền được bảo lưu.</p>
+            <p>&copy; @HR Leader GHN 2025. Mọi thông tin đều được bảo mật.</p>
         </div>
     </footer>
 
